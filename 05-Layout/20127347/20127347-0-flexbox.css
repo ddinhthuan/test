@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.abc {
+    width: 70%;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+.background {
+    background-color: #eee;
+    padding: 20px 0;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    text-align: center;
+    width: 100%;
+}
+.logo {
+    background-color: #aaa;
+    padding: 15px;
+    width: 100%;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-content {
+    display: flex;
+    width: 100%;
+}
+.banner {
+    background-color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.sidebar {
+    background-color: #aaa;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    height: 300px; /* Căn chiều cao của sidebar theo chiều cao của body-area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-area {
+    background-color: #aaa;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.footer {
+    background-color: #aaa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
